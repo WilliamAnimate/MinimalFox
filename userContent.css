@@ -1,0 +1,20 @@
+@-moz-document url("about:newtab"),
+               url("about:home") {
+    /* original: https://safereddit.com/r/FirefoxCSS/comments/18sw9tr/is_there_a_way_to_customize_firefox_home_css_to/ */
+    :root {
+    	--newtab-background-color: #000 !important;
+    }
+    @media (prefers-color-scheme: light) {
+        :root {
+            --newtab-background-color: #fff !important;
+        }
+    }
+
+    /* hide the firefox word thing */
+    .wordmark{display:none!important}
+
+    /* force HIDE pocket */
+    .body-wrapper{display:none!important}
+    /* hide settings */
+    button{display:none!important}
+}
