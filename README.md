@@ -6,7 +6,7 @@
 
 # A minimalist's Firefox.
 
-MinimalFox removes most of the clutter in your titlebar, including tabs.
+MinimalFox removes most of the clutter in your toolbar, even tabs.
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ If you do not know where to put `userChrome.css` and `userContent.css` files, tr
 
 Decluttering your toolbar further can be done with built-in Firefox UIs:
 
-1. Right click any of the icons on your toolbar
-1. Select `customize toolbar`
+1. Right click any of the icons on your toolbar.
+1. Select `customize toolbar`.
 1. Drag and drop items as needed.
 
 Should you want to enable a larger drag space, you will have to configure the `userChrome.css` file, as follows:
@@ -46,4 +46,4 @@ Should you want to enable a larger drag space, you will have to configure the `u
 
 ## Attribution
 
-All attributions can be found within the css files themselves, usually linking to where I got that specific style from.
+Attribution can be found within the css files themselves, usually linking to where I got that specific style from.
