@@ -31,3 +31,10 @@
     right: -100px;
 }
 
+.urlbarView-row {
+    margin-top: 0px !important;
+}
+.urlbarView-row::before {
+    display: none !important;
+}
+
