@@ -38,3 +38,12 @@
     display: none !important;
 }
 
+/* just use alt+left/right arrow */
+#forward-button,
+#back-button {
+    display: none
+}
+
+#reload-button {
+    padding-left: var(--toolbar-start-end-padding) !important;
+}
