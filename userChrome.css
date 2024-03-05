@@ -44,6 +44,7 @@
     display: none
 }
 
+#stop-button,
 #reload-button {
     padding-left: var(--toolbar-start-end-padding) !important;
 }
