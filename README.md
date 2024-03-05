@@ -42,7 +42,7 @@ Should you want to enable a larger drag space, you will have to configure the `u
 >
 > If you use KDE Plasma, you can try holding the `super` key while dragging any part of the application instead.
 >
-> If you use tiling window managers, there is no point in enabling this.
+> If you use tiling window managers, there is no point in changing this.
 
 ## Attribution
 
