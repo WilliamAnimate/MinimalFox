@@ -46,4 +46,4 @@ Should you want to enable a larger drag space, you will have to configure the `u
 
 ## Attribution
 
-Attribution can be found within the css files themselves, usually linking to where I got that specific style from.
+Attribution can be found within the css files themselves, usually linking to where I got that specific style from. The rest were made by myself with the browser toolbox.
