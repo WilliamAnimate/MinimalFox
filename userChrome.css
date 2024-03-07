@@ -1,6 +1,7 @@
 /* optional configuration goes HERE! */
 :root {
     --minimalfox-dragspace: 0px; /* increase to allow for easier dragging. recommended to set `7` for windows users. */
+    --toolbarbutton-border-radius: 12px !important; /* border radius for various toolbar icons */
     /* --minimalfox-dragspace-display: none; */ /* uncomment if you don't plan to ever use the titlebar. */
 }
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar>.toolbar-items{display:none}
@@ -12,36 +13,22 @@
     --toolbarbutton-border-radius: 12px;
     --urlbar-icon-border-radius: 12px;
 }
-/* disable the 'this time, search with' */
-#urlbar .search-one-offs {display: none !important}
 
-/* hide the hamburger menu thing https://safereddit.com/r/FirefoxCSS/comments/18rexvf/removing_the_3dot_menu_icon_next_to_the_address */
-.urlbarView-button-menu {display: none}
+.urlbarView-button-menu, .titlebar-buttonbox-container, /* hide the hamburger menu thing https://safereddit.com/r/FirefoxCSS/comments/18rexvf/removing_the_3dot_menu_icon_next_to_the_address */
+#forward-button, #back-button, /* just use alt+left/right arrow */
+#urlbar .search-one-offs, /* hide the 'this time, search with' */ /* FIXME: pressing down arrow still selects what would be there */
+.urlbarView-row::before
+{display: none !important}
 
-.titlebar-buttonbox-container {display: none}
-
-:root {
-    --toolbarbutton-border-radius: 12px !important;
+.urlbarView-row {
+    margin-top: 0px !important;
 }
 
 /* just use ctrl+d */
 #star-button-box {
     position: fixed;
     left: -100px;
-    right: -100px;
-}
-
-.urlbarView-row {
-    margin-top: 0px !important;
-}
-.urlbarView-row::before {
-    display: none !important;
-}
-
-/* just use alt+left/right arrow */
-#forward-button,
-#back-button {
-    display: none
+    right: -100px; /* FIXME: left & right? wtf? im too lazy to turn on the toolbox to see if this actually does something. maybe later. */
 }
 
 #stop-button,
