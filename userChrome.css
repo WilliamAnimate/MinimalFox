@@ -27,8 +27,7 @@
 /* just use ctrl+d */
 #star-button-box {
     position: fixed;
-    left: -100px;
-    right: -100px; /* FIXME: left & right? wtf? im too lazy to turn on the toolbox to see if this actually does something. maybe later. */
+    left: -30px;
 }
 
 #stop-button,
