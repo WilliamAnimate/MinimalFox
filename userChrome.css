@@ -2,17 +2,18 @@
 :root {
     --minimalfox-dragspace: 0px; /* increase to allow for easier dragging. recommended to set `7` for windows users. */
     --toolbarbutton-border-radius: 12px !important; /* border radius for various toolbar icons */
+    --arrowpanel-menuitem-border-radius: var(--toolbarbutton-border-radius) !important; /* border radius for buttons inside dropdown menus. inherits from --toolbarbutton-border-radius by default */
+    --panel-border-radius: var(--toolbarbutton-border-radius) !important; /* border radius for the various dropdown menus. inherits from --toolbarbutton-border-radius by default */
     /* --minimalfox-dragspace-display: none; */ /* uncomment if you don't plan to ever use the titlebar. */
 }
+
+/* internal configuration. this is needed for some variables. */
+:is(menupopup, panel):where([type=arrow]) {
+    --panel-border-radius: var(--toolbarbutton-border-radius) !important;
+}
+
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar>.toolbar-items{display:none}
 #titlebar{appearance:none!important;height:var(--minimalfox-dragspace);display:var(--minimalfox-dragspace-display)}
-
-/* rounded input bar */
-#urlbar-background,
-#urlbar-input-container {
-    --toolbarbutton-border-radius: 12px;
-    --urlbar-icon-border-radius: 12px;
-}
 
 .urlbarView-button-menu, .titlebar-buttonbox-container, /* hide the hamburger menu thing https://safereddit.com/r/FirefoxCSS/comments/18rexvf/removing_the_3dot_menu_icon_next_to_the_address */
 #forward-button, #back-button, /* just use alt+left/right arrow */
