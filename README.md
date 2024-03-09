@@ -2,7 +2,7 @@
 
 ![hero](docs/hero.png)
 
-*Pictured: Minimal Fox, [Catppuccin-mocha-pink](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-pink/) and [Catppuccin-latte-pink](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-latte-pink/) respectively*.
+*Pictured: Minimal Fox, [Catppuccin-mocha-pink](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-pink/) and [Catppuccin-latte-pink](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-latte-pink/)*.
 
 # A minimalist's Firefox.
 
