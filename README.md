@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD041 MD026 -->
 
-![hero](docs/hero.png)
+<!-- ![hero](docs/hero.png) -->
+
+<img width="1000" src="docs/hero.png">
 
 *Pictured: Minimal Fox, [Catppuccin-mocha-pink](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-pink/) and [Catppuccin-latte-pink](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-latte-pink/)*.
 
