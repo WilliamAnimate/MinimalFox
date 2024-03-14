@@ -11,7 +11,7 @@
     }
 
     .wordmark, /* hide the firefox word thing */
-    .body-wrapper /* force HIDE pocket */
-    {display:none!important} /* hide settings */
-    button{display:none!important}
+    .body-wrapper, /* force HIDE pocket */
+    button /* settings cog */
+    {display:none!important}
 }
