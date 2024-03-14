@@ -10,11 +10,8 @@
         }
     }
 
-    /* hide the firefox word thing */
-    .wordmark{display:none!important}
-
-    /* force HIDE pocket */
-    .body-wrapper{display:none!important}
-    /* hide settings */
+    .wordmark, /* hide the firefox word thing */
+    .body-wrapper /* force HIDE pocket */
+    {display:none!important} /* hide settings */
     button{display:none!important}
 }
