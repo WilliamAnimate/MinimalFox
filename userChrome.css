@@ -32,6 +32,7 @@
 }
 
 #stop-button,
+#developer-button, /* i have the developer button on my toolbar to quickly access it. this is really just for me. */
 #reload-button {
     padding-left: var(--toolbar-start-end-padding) !important;
 }
